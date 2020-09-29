@@ -10,7 +10,7 @@ def custom_median (numbers):
     if len(numbers)%2 == 0:
         return (numbers[middle-1]+numbers[middle])/2 
     else:
-        return lst[middle]
+        return numbers[middle]
 
 def custom_mode (numbers):
 

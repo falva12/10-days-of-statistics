@@ -37,8 +37,6 @@ for n in custom_quartiles(numbers):
 # construct a data set, S, where each xi occurs at frequency fi.
 # Then calculate and print S's interquartile range, rounded to a scale of 1 decimal place.
 
-Tip: Be careful to not use integer division when averaging the middle two elements for a data set with an even number of elements, and be sure to not include the median in your upper and lower data sets.
-
 def create_repnumbers(numbers, reps):
     lst = []
     for n, r in zip(numbers, reps):

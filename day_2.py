@@ -87,3 +87,15 @@ P = urns.loc['X','p_red'] * urns.loc['Y','p_red'] * urns.loc['Z','p_black'] \
     + urns.loc['Z','p_red'] * urns.loc['X','p_red'] * urns.loc['Y','p_black']\
     + urns.loc['Y','p_red'] * urns.loc['Z','p_red'] * urns.loc['X','p_black']
 P
+
+
+def filledOrders(order, k):
+    # Write your code here
+    result=0
+    count=0
+    print(k, len(order))
+    for o in order:
+        count+=1
+        if o<=k: result+=1
+        print(o, o<=k, result)
+    return result

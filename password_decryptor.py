@@ -41,8 +41,6 @@ def remove_ast(s):
 s = '51Pa*0Lp*0e'
 
 nozero_s = replace_zeros(s, zero_pos(s))
-print(nozero_s)
-
 password = flipchar(nozero_s, ast_pos(nozero_s))
 password = remove_ast(password)
 
